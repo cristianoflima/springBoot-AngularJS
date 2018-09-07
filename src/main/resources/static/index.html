@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+<base href="/">
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="/static/css/main.css">
+
+<link rel="stylesheet"
+	href="/webjars/bootstrap/3.3.7-1/css/bootstrap.min.css">
+
+
+<script type="text/javascript"
+	src="/webjars/jquery/3.3.1-1/jquery.min.js"></script>
+<script type="text/javascript"
+	src="/webjars/bootstrap/3.3.7-1/js/bootstrap.min.js"></script>
+
+<script type="text/javascript"
+	src="/webjars/angularjs/1.7.2/angular.min.js"></script>
+	
+<script type="text/javascript"
+	src="/static/libs/angular-css.min.js"></script>	
+	
+<script type="text/javascript"
+	src="/webjars/angularjs/1.7.2/angular-route.min.js"></script>
+
+<script type="text/javascript" src="/static/js/app.js"></script>
+<script type="text/javascript" src="/static/js/home-controller.js"></script>
+<script type="text/javascript" src="/static/js/first-page-controller.js"></script>
+<title>Home SPA</title>
+</head>
+<body>
+	<div class="mainMenu">
+		<h1>Index's menu</h1>
+	</div>
+	<div class="container">
+		<ng-view></ng-view>
+	</div>
+</body>
+</html>
